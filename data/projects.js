@@ -86,5 +86,5 @@ export const data = [
   //   backEndLink: "",
   //   fullStackLink: "",
   //   revarse: true,
-  // },
+  // },//
 ];
