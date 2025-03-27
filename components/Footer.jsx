@@ -16,7 +16,7 @@ const Footer = () => {
         <span className='text-rose-500'>
           <BsFillSuitHeartFill />
         </span>
-        <span> &copy; {new Date().getFullYear()}</span>
+        <span>&copy; {new Date().getFullYear()}</span>
       </p>
     </footer>
   );
