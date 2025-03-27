@@ -1,6 +1,6 @@
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
-
+import avatarphoto from "../app/bg.jpg"
 const About = () => {
   return (
     <section id='about' className='wrapper section-padding'>
@@ -18,8 +18,8 @@ const About = () => {
             className='w-full h-auto overflow-hidden rounded-3xl'
           >
             <Image
-              src='https://res.cloudinary.com/drgxflcsb/image/upload/v1676030149/Personal%20Portfolio/masud-image1_rejzqv.jpg'
-              alt='Masud Rana Shawon'
+              src={avatarphoto}
+              alt='avatar'
               width={500}
               height={500}
               className='w-full h-full object-cover hover:scale-[1.1] duration-[2000ms]'
@@ -80,13 +80,7 @@ const About = () => {
               data-aos-easing='ease-in-out'
               className='text-[1rem] xl:text-[1.4rem] tracking-wide leading-[1.5]'
             >
-              Welcome to my portfolio! I&apos;m deeply passionate about
-              JavaScript and its ability to create dynamic web applications. My
-              journey into web development began in July 2022 I thrive on MERN
-              stack development, constantly learning and pushing boundaries to
-              build innovative solutions. My insatiable curiosity drives me to
-              stay updated with the latest developments, aiming to create
-              impactful projects that contribute to technological advancement.
+              My specialization lies in updating both back-end and front-end technologies to enhance SEO efficiency, service speed, data processing, and the overall user interface (UI) of every project. My primary goal is to boost user engagement and improve the popularity of the applications I work on.
             </p>
           </div>
         </div>

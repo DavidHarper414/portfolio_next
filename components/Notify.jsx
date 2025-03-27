@@ -16,14 +16,14 @@ const Notify = ({ t }) => {
             <Image
               className='h-10 w-10 rounded-full'
               src='https://res.cloudinary.com/drgxflcsb/image/upload/v1676030150/Personal%20Portfolio/masud-image3_vxmpd0.jpg'
-              alt='Profile picture of Masud Rana Shawon'
+              alt='Profile picture'
               width={160}
               height={80}
               property
             />
           </div>
           <div className='ml-3 flex-1'>
-            <p className='text-sm font-medium text-dark'>Masud Rana Shawon</p>
+            <p className='text-sm font-medium text-dark'></p>
             <p className='mt-1 text-sm text-gray-500'>
               I got the message and will get back to you soon thank you.
             </p>

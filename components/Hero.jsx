@@ -2,6 +2,7 @@
 
 import { TbMathGreater } from "react-icons/tb";
 import { SiExpress, SiLeetcode, SiNodedotjs } from "react-icons/si";
+import profilepicture from "../app/cyborg.jpg";
 import {
   BiLogoFacebook,
   BiLogoGithub,
@@ -9,6 +10,7 @@ import {
   BiLogoLinkedin,
   BiLogoReact,
   BiLogoMongodb,
+  BilogoDiscord,
 } from "react-icons/bi";
 import Link from "next/link";
 import Image from "next/image";
@@ -48,7 +50,7 @@ const Hero = () => {
               data-aos-easing='ease-in-out'
               className='text-[1.8rem] md:text-[2.5rem] lg:text-[2.6rem] xl:text-[2.8rem] 2xl:text-[3rem] font-semibold'
             >
-              I&apos;m Masud Rana Shawon
+              I'M SENIOR FULLSTACK DEVELOPER
               <span className='text-accent font-bold'>.</span>
             </h3>
           </div>
@@ -62,7 +64,7 @@ const Hero = () => {
               data-aos-easing='ease-in-out'
               className='text-[1.4rem] md:text-[1.8rem] lg:text-[1.8rem] xl:text-[1.9rem] 2xl:text-[2.2rem] font-semibold text-accent'
             >
-              Creative full stack web developer
+              SUMMARY
             </h1>
           </div>
           <div className='overflow-hidden'>
@@ -75,10 +77,7 @@ const Hero = () => {
               data-aos-easing='ease-in-out'
               className='text-lg tracking-wide'
             >
-              Passionate MERN developer based in Bangladesh, pushing boundaries
-              with impactful projects, embracing new technologies, and solving
-              problems with logic. Committed to honest innovation and positive
-              societal impact.
+              As a senior full-stack developer with over six years of extensive experience in web development, I excel at ensuring project perfection. I effectively apply both MongoDB and MySQL databases within modern frameworks such as Next.js and Nuxt.js to create robust solutions.
             </p>
           </div>
           <div>
@@ -126,7 +125,7 @@ const Hero = () => {
               Stay Connected Thrive Together
             </h4>
             <div className='social flex gap-5 text-2xl overflow-hidden'>
-              <div
+              {/* <div
                 data-aos='zoom-in'
                 data-aos-delay='2500'
                 data-aos-duration='1000'
@@ -137,7 +136,7 @@ const Hero = () => {
                 className='github'
               >
                 <Link
-                  href='https://github.com/masudranashawon'
+                  href='https://github.com/Tomas3414'
                   target='_blank'
                   className='text-3xl hover:text-accent duration-500'
                 >
@@ -179,8 +178,8 @@ const Hero = () => {
                 >
                   <BiLogoLinkedin />
                 </Link>
-              </div>
-              <div
+              </div> */}
+              {/* <div
                 data-aos='zoom-in'
                 data-aos-delay='2800'
                 data-aos-duration='1000'
@@ -215,7 +214,7 @@ const Hero = () => {
                 >
                   <BiLogoFacebook />
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -234,8 +233,8 @@ const Hero = () => {
                 className='overflow-hidden rounded-full border border-dark'
               >
                 <Image
-                  src='https://res.cloudinary.com/drgxflcsb/image/upload/v1676030149/Personal%20Portfolio/masud-image2_xhvc03.jpg'
-                  alt='Masud Rana Shawon'
+                  src= {profilepicture}
+                  alt='image'
                   width={500}
                   height={500}
                   priority

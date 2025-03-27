@@ -7,6 +7,7 @@ import {
   BiLogoGithub,
   BiLogoLinkedin,
   BiLogoTwitter,
+  BiLogoGmail
 } from "react-icons/bi";
 import { toast } from "react-hot-toast";
 import emailjs from "@emailjs/browser";
@@ -83,7 +84,7 @@ const Contact = () => {
               </h2>
             </div>
 
-            <address className='not-italic space-y-8 mt-10'>
+            {/* <address className='not-italic space-y-8 mt-10'>
               <div className='social-network space-y-2 overflow-hidden'>
                 <h4
                   data-aos='slide-right'
@@ -95,7 +96,7 @@ const Contact = () => {
                   Social network
                 </h4>
 
-                {/* SOCIAL */}
+                ///social
                 <div className='social-network flex gap-5 text-2xl text-accent overflow-hidden'>
                   <div
                     data-aos='zoom-in'
@@ -105,14 +106,14 @@ const Contact = () => {
                     className='github'
                   >
                     <Link
-                      href='https://github.com/masudranashawon'
+                      href='https://github.com/Moonlight3414'
                       target='_blank'
                       className='text-3xl hover:text-dark duration-500'
                     >
                       <BiLogoGithub />
                     </Link>
                   </div>
-                  <div
+                   <div
                     data-aos='zoom-in'
                     data-aos-delay='2000'
                     data-aos-duration='1000'
@@ -156,8 +157,8 @@ const Contact = () => {
                     >
                       <BiLogoTwitter />
                     </Link>
-                  </div>
-                  <div
+                  </div> 
+                <div
                     data-aos='zoom-in'
                     data-aos-delay='2300'
                     data-aos-duration='1000'
@@ -171,7 +172,7 @@ const Contact = () => {
                     >
                       <BiLogoFacebook />
                     </Link>
-                  </div>
+                  </div>  
                 </div>
               </div>
 
@@ -192,11 +193,11 @@ const Contact = () => {
                     data-aos-delay='2300'
                     data-aos-easing='ease-in-out'
                     data-aos-anchor-placement='top center'
-                    href='mailto:masudranashawon1@gmail.com'
+                    href='mailto:smartec414@gmail.com'
                     target='_blank'
                     className='email text-dark/80 lowercase text-lg line-flow inline-block'
                   >
-                    masudranashawon1@gmail.com
+                    smartec414@gmail.com
                   </Link>
                 </div>
               </div>
@@ -227,8 +228,8 @@ const Contact = () => {
                     Dhaka, Bangladesh
                   </Link>
                 </div>
-              </div>
-            </address>
+              </div> 
+            </address> */}
           </div>
 
           {/* CONTACT FORM */}

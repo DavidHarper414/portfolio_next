@@ -45,7 +45,7 @@ const Navbar = () => {
                 <FaCode />
               </span>
               <Link href="/" className="line-flow whitespace-nowrap">
-                Masud Rana Shawon
+                ME
               </Link>
             </div>
           </div>
@@ -83,14 +83,14 @@ const Navbar = () => {
                 Contact
               </Link>
             </li>
-            <li className="list-none">
+            {/* <li className="list-none">
               <Link
                 href="https://masudranashawon.netlify.app"
                 className="line-flow"
               >
                 Portfolio Dark
               </Link>
-            </li>
+            </li> */}
           </nav>
 
           {/* RIGHT NAV */}
@@ -103,8 +103,9 @@ const Navbar = () => {
               className="m-2"
             >
               <ButtonAsLink
-                href="https://drive.google.com/uc?export=download&id=1e1fFCCgcWwN4XP7Es6wAeUesUIrjZgFv"
-                placeholder="Download Resume"
+                //href="https://drive.google.com/uc?export=download&id=1e1fFCCgcWwN4XP7Es6wAeUesUIrjZgFv"
+                href="/"
+                placeholder="Home"
                 target="_blank"
               />
             </div>
@@ -134,7 +135,7 @@ const Navbar = () => {
                 <FaCode />
               </span>
               <Link href="/" className="line-flow">
-                Masud Rana Shawon
+                ME
               </Link>
             </div>
           </div>
@@ -244,7 +245,7 @@ const Navbar = () => {
                   Resume
                 </Link>
               </li>
-              <li className="list-none">
+              {/* <li className="list-none">
                 <Link
                   href="https://masudranashawon.netlify.app"
                   className="line-flow"
@@ -252,7 +253,7 @@ const Navbar = () => {
                 >
                   Portfolio Dark
                 </Link>
-              </li>
+              </li> */}
             </nav>
           </div>
         </div>
