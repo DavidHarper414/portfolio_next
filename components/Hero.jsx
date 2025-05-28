@@ -50,7 +50,7 @@ const Hero = () => {
               data-aos-easing='ease-in-out'
               className='text-[1.8rem] md:text-[2.5rem] lg:text-[2.6rem] xl:text-[2.8rem] 2xl:text-[3rem] font-semibold'
             >
-              I AM SENIOR FULLSTACK DEVELOPER
+              I am Roman Vlasyuk <br/>SENIOR FULLSTACK DEVELOPER
               <span className='text-accent font-bold'>.</span>
             </h3>
           </div>
@@ -77,7 +77,7 @@ const Hero = () => {
               data-aos-easing='ease-in-out'
               className='text-lg tracking-wide'
             >
-              As a senior full-stack developer with over six years of extensive experience in web development, I excel at ensuring project perfection. I effectively apply both MongoDB and MySQL databases within modern frameworks such as Next.js and Nuxt.js to create robust solutions.
+              As a senior full-stack developer with over 8+ years of extensive experience in web development, I excel at ensuring project perfection. I effectively apply both MongoDB and MySQL databases within modern frameworks such as Next.js and Nuxt.js to create robust solutions.
             </p>
           </div>
           <div>

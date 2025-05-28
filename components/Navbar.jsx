@@ -44,7 +44,7 @@ const Navbar = () => {
               <span className="text-2xl text-accent animate-bounce">
                 <FaCode />
               </span>
-              <Link href="/" className="line-flow whitespace-nowrap">
+              <Link href="/" className="line-flow text-[25px] whitespace-nowrap">
                 Roman V.
               </Link>
             </div>
@@ -103,9 +103,9 @@ const Navbar = () => {
               className="m-2"
             >
               <ButtonAsLink
-                //href="https://drive.google.com/uc?export=download&id=1e1fFCCgcWwN4XP7Es6wAeUesUIrjZgFv"
-                href="/"
-                placeholder="Home"
+                href="https://drive.google.com/file/d/1KnSWGkT-NGOpesPRroM2UESIa28eWloC/view?usp=sharing"
+                // href="/"
+                placeholder="Resume"
                 target="_blank"
               />
             </div>

@@ -69,22 +69,22 @@ export const data = [
     fullStackLink: "",
     revarse: false,
   },
-  // {
-  //   id: 4,
-  //   title: "Foodverse",
-  //   category: "A Recipe Finder Web Application",
-  //   completeDate: "December 27, 2023",
-  //   image:
-  //     "https://res.cloudinary.com/drgxflcsb/image/upload/v1697665183/nextjs-portfolio/kw4gl2ap8bqsrbjjd3ty.webp",
-  //   height: 4640,
-  //   scrollY: "-81.2%",
-  //   description:
-  //     "Foodverse is a recipe web application, where a user can search for a variety of recipes and find the ingredients and quantities needed to make each recipe item. Also, favorite recipe items can be saved in the browser's local storage. It is easy to find different recipes for vegetarians and meat eaters, as well as those who want to lose weight.",
-  //   tools: ["React.js", "React Router", "Tailwind CSS"],
-  //   liveLink: "https://food-verse-masud.netlify.app/",
-  //   frontEndLink: "https://github.com/masudranashawon/foodverse",
-  //   backEndLink: "",
-  //   fullStackLink: "",
-  //   revarse: true,
-  // },//
+  {
+    id: 4,
+    title: "Foodverse",
+    category: "A Recipe Finder Web Application",
+    completeDate: "December 27, 2023",
+    image:
+      "https://res.cloudinary.com/drgxflcsb/image/upload/v1697665183/nextjs-portfolio/kw4gl2ap8bqsrbjjd3ty.webp",
+    height: 4640,
+    scrollY: "-81.2%",
+    description:
+      "Foodverse is a recipe web application, where a user can search for a variety of recipes and find the ingredients and quantities needed to make each recipe item. Also, favorite recipe items can be saved in the browser's local storage. It is easy to find different recipes for vegetarians and meat eaters, as well as those who want to lose weight.",
+    tools: ["React.js", "React Router", "Tailwind CSS"],
+    liveLink: "https://food-verse-masud.netlify.app/",
+    frontEndLink: "https://github.com/masudranashawon/foodverse",
+    backEndLink: "",
+    fullStackLink: "",
+    revarse: true,
+  },
 ];

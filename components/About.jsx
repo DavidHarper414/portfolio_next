@@ -68,7 +68,7 @@ const About = () => {
               I&apos;m a<span className='text-accent'> passionate </span>
               and <span className='text-accent'>innovative</span> web developer
               with a strong focus on
-              <span className='text-accent'> mern stack</span>.
+              <span className='text-accent'> Full stack & Blockchain</span>.
             </h2>
           </div>
           {/* DISCRIPTIVE INFORMATION */}

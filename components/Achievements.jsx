@@ -13,7 +13,7 @@ const Achievments = () => {
 
   const handleVisibilityChange = (isVisible) => {
     if (isVisible) {
-      setExperience(1);
+      setExperience(5);
       setLeetcode(43);
       setProjects(12);
       setGithubContributions(381);
