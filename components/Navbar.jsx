@@ -45,7 +45,7 @@ const Navbar = () => {
                 <FaCode />
               </span>
               <Link href="/" className="line-flow whitespace-nowrap">
-                ME
+                Roman V.
               </Link>
             </div>
           </div>
